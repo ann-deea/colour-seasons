@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f3;
+    color: #E6F2D2;
+}
+
+header {
+    background-color: #1D3E2F;
+    color: #E6F2D2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #E6F2D2;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #E6F2D2;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E6F2D2;
+}
+
+
+.section-beginning {
+    display: flex;
+    background-color: #2F5F48;
+    margin-top: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column-with-background {
+    flex: 1;
+    background-image: url('/images/efect.png'); /* Replace with your image path */
+    background-size: cover;
+    height: 300px; /* Set the height of the background image */
+}
+
+
+.gallery-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add space between title and gallery */
+    color: #E6F2D2; /* Text color for the title */
+}
+
+.gallery {
+    display: flex; /* Use flexbox to make items inline */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    background-color: #2F5F48; /* Background color for the gallery */
+    padding: 20px; /* Padding for the gallery */
+    color: #E6F2D2; /* Text color for gallery items */
+    text-align: center;
+}
+
+.gallery-item {
+    flex: 0 0 calc(25% - 10px); /* Set the width of each item */
+    margin-bottom: 10px; /* Add margin between items */
+}
+
+.gallery-item img {
+    width: 100%; /* Ensure images fill the grid items */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+    color: #E6F2D2;
+    background: #2F5F48;
+    padding: 15px;
+}
+  
+
+
+
+
+main {
+    padding: 80px;
+    color:#1D3E2F
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: #1D3E2F 1px solid;
+    border-radius: 30px;
+}
+
+.section {
+    display: inline-block;
+    width: calc(33.33% - 5px); /* Adjust the width as needed */
+    margin-right: 5px; /* Reduced spacing between sections */
+    vertical-align: top; /* Align the sections vertically */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+h3 {
+    text-align: left;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
